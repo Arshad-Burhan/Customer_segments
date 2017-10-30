@@ -1,6 +1,18 @@
 # Content: Unsupervised Learning
 ## Project: Creating Customer Segments
 
+## Description
+
+A wholesale distributor recently tested a change to their delivery method for some customers, by moving from a morning delivery service five days a week to a cheaper evening delivery service three days a week. Initial testing did not discover any significant unsatisfactory results, so they implemented the cheaper option for all customers. Almost immediately, the distributor began getting complaints about the delivery service change and customers were canceling deliveries, losing the distributor more money than what was being saved. You've been hired by the wholesale distributor to find what types of customers they have to help them make better, more informed business decisions in the future. Your task is to use unsupervised learning techniques to see if any similarities exist between customers, and how to best segment customers into distinct categories. This project work towards developing conclusions for a potential client on a real-world dataset. Many companies today collect vast amounts of data on customers and clientele, and have a strong desire to understand the meaningful relationships hidden in their customer base. Being equipped with this information can assist a company engineer future products and services that best satisfy the demands or needs of their customers.
+
+Things learned by completing this project:
+
+- How to apply preprocessing techniques such as feature scaling and outlier detection.
+- How to interpret data points that have been scaled, transformed, or reduced from PCA.
+- How to analyze PCA dimensions and construct a new feature space.
+- How to optimally cluster a set of data to find hidden patterns in a dataset.
+- How to assess information given by cluster data and use it in a meaningful way.
+
 ### Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
@@ -12,25 +24,13 @@ This project requires **Python 2.7** and the following Python libraries installe
 
 You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer. 
+If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
-### Code
+### Files:
 
-Template code is provided in the `customer_segments.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `customers.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `customer_segments/` (that contains this README) and run one of the following commands:
-
-```bash
-ipython notebook customer_segments.ipynb
-```  
-or
-```bash
-jupyter notebook customer_segments.ipynb
-```
-
-This will open the Jupyter Notebook software and project file in your browser.
+- `customer_segments.ipynb`: This is the main file where where all work is performed.
+- `customers.csv`: The project dataset. 
+- `visuals.py`: This Python script provides supplementary visualizations for the project.
 
 ## Data
 
